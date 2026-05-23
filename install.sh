@@ -1,5 +1,7 @@
 #!/bin/sh
 
+apk add --no-cache jq git curl tmux gettext-envsubst
+
 npm install -g --quiet --ignore-scripts @earendil-works/pi-coding-agent
 
 ddir="$(dirname $0)/dotfiles"

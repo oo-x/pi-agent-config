@@ -1,0 +1,6 @@
+[user]
+	name = $GIT_USER
+	email = $GIT_EMAIL
+
+[init]
+	defaultBranch = main
